@@ -9,6 +9,7 @@ const CourseDetails = () => {
     return (
         <div className='pt-20'>
             <p>{course_name}</p>
+            hi
         </div>
     );
 };

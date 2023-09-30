@@ -1,6 +1,5 @@
 [
   {
-    "_id": "1",
     "course_name": "MERN Stack Fundamentals",
     "course_description": "Learn the core concepts of MERN stack development.",
     "course_duration": "8 weeks",
@@ -21,7 +20,6 @@
     "video": "mern_course_intro.mp4"
   },
   {
-    "_id": "2",
     "course_name": "Advanced React Techniques",
     "course_description": "Master advanced React concepts and libraries.",
     "course_duration": "10 weeks",
@@ -41,7 +39,6 @@
     "video": "react_advanced_course_intro.mp4"
   },
   {
-    "_id": "3",
     "course_name": "Node.js Backend Development",
     "course_description": "Become a Node.js backend expert.",
     "course_duration": "12 weeks",
@@ -61,7 +58,6 @@
     "video": "nodejs_course_intro.mp4"
   },
   {
-    "_id": "4",
     "course_name": "MongoDB for Beginners",
     "course_description": "Start your journey with MongoDB.",
     "course_duration": "6 weeks",
@@ -77,7 +73,6 @@
     "video": "mongodb_beginner_course_intro.mp4"
   },
   {
-    "_id": "5",
     "course_name": "React Native App Development",
     "course_description": "Build cross-platform mobile apps with React Native.",
     "course_duration": "10 weeks",
@@ -97,7 +92,6 @@
     "video": "react_native_course_intro.mp4"
   },
   {
-    "_id": "6",
     "course_name": "Full-stack E-commerce Website",
     "course_description": "Create a fully functional e-commerce site.",
     "course_duration": "16 weeks",
@@ -120,7 +114,6 @@
     "video": "ecommerce_course_intro.mp4"
   },
   {
-    "_id": "7",
     "course_name": "React and Express Authentication",
     "course_description": "Secure your MERN stack apps with authentication.",
     "course_duration": "8 weeks",
@@ -140,7 +133,6 @@
     "video": "auth_course_intro.mp4"
   },
   {
-    "_id": "8",
     "course_name": "Database Design Principles",
     "course_description": "Master the art of database design.",
     "course_duration": "10 weeks",
@@ -156,7 +148,6 @@
     "video": "database_course_intro.mp4"
   },
   {
-    "_id": "9",
     "course_name": "React Testing Strategies",
     "course_description": "Learn how to test React applications.",
     "course_duration": "6 weeks",
@@ -176,7 +167,6 @@
     "video": "testing_course_intro.mp4"
   },
   {
-    "_id": "10",
     "course_name": "Node.js Express Framework",
     "course_description": "Explore the power of Node.js and Express.",
     "course_duration": "8 weeks",
@@ -195,7 +185,6 @@
     "video": "nodejs_express_course_intro.mp4"
   },
   {
-    "_id": "11",
     "course_name": "React State Management",
     "course_description": "Master state management in React.",
     "course_duration": "6 weeks",
@@ -218,7 +207,6 @@
     "video": "state_management_course_intro.mp4"
   },
   {
-    "_id": "12",
     "course_name": "MongoDB Performance Optimization",
     "course_description": "Optimize MongoDB for high-performance applications.",
     "course_duration": "8 weeks",
