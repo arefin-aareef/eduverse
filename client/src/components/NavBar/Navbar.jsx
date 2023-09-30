@@ -27,34 +27,28 @@ const Navbar = () => {
 
   const navOptions = (
     <div className="flex flex-col lg:flex-row font-semibold text-lg">
-      <li className="hover:bg-white hover:text-black rounded-lg">
+      <li className="">
         <Link to="/courses">Courses</Link>
       </li>
-      <li className="hover:bg-white hover:text-black rounded-lg">
+      <li className="">
         <Link>Item 3</Link>
       </li>
 
       {user ? (
-        <div className="flex">
-
-        <li
-          onClick={handleLogOut}
-          className="hover:bg-white hover:text-black rounded-lg inline-block"
-          >
-          <Link to="/">Logout</Link>
-          
-        </li>
+        <div className="flex flex-col lg:flex-row">
+          <li onClick={handleLogOut} className=" inline-block">
+            <Link to="/">Logout</Link>
+          </li>
 
           <img
-                style={{ width: 48, height: 48, borderRadius: "20%" }}
-                src={user?.photoURL}
-                alt={user?.displayName}
-                title={user?.email}
-              />
-
-          </div>
+            style={{ width: 48, height: 48, borderRadius: "20%" }}
+            src={user?.photoURL}
+            alt={user?.displayName}
+            title={user?.email}
+          />
+        </div>
       ) : (
-        <li className="hover:bg-white hover:text-black rounded-lg">
+        <li className="">
           <Link to="/login">Login</Link>
         </li>
       )}
