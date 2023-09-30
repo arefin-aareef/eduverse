@@ -10,7 +10,7 @@ const Courses = () => {
     <div className="">
       <CourseBanner></CourseBanner>
 
-      <div className=" bg-slate-500  py-8 px-2 md:px-0 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-0 gap-y-8 place-items-center">
+      <div className=" bg-slate-500  py-6 px-2 md:px-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 place-items-center">
         {courses.map((item) => (
           <CourseCard key={item._id} item={item}></CourseCard>
         ))}
