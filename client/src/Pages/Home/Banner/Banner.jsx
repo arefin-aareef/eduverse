@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import img1 from "../../../assets/images/banner.jpg";
+import banner1 from "../../../assets/images/banner1.jpg";
 
 const Banner = () => {
   return (
     <div
       className="hero min-h-screen "
-      style={{ backgroundImage: `url(${img1})` }}
+      style={{ backgroundImage: `url(${banner1})` }}
     >
       <div className="hero-overlay bg-opacity-60 "></div>
       <div className="hero-content text-center text-white">

@@ -1,5 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
+import Courses from "../Pages/Courses/Courses/Courses";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
@@ -12,6 +13,10 @@ import Signup from "../Pages/Signup/Signup";
         {
             path: '/',
             element: <Home></Home>
+        },
+        {
+            path: 'courses',
+            element: <Courses></Courses>
         },
         {
             path: 'login',

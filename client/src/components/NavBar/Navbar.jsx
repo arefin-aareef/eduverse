@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const navOptions = (
-    <div className="flex flex-col lg:flex-row font-semibold">
+    <div className="flex flex-col lg:flex-row font-semibold text-lg">
       <li className="hover:bg-white hover:text-black rounded-lg">
-        <Link>Item 1</Link>
+        <Link to="/courses">Courses</Link>
       </li>
       <li className="hover:bg-white hover:text-black rounded-lg">
         <Link>Item 3</Link>
@@ -16,7 +16,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="navbar  fixed z-20 max-w-screen-2xl  text-white">
+      <div className="navbar fixed z-20 max-w-screen-2xl text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
