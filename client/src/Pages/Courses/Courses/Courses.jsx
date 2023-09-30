@@ -1,24 +1,22 @@
-import banner2 from "../../../assets/images/banner2.jpg";
-
+import useCourses from "../../../hooks/useCourses";
+import CourseBanner from "../CourseBanner/CourseBanner";
+import CourseCard from "../CourseCard/CourseCard";
 
 const Courses = () => {
-    return (
-        <div
-        className="hero h-[250px] "
-        style={{ backgroundImage: `url(${banner2})` }}
-      >
-        <div className="hero-overlay bg-opacity-60 "></div>
-        <div className="hero-content text-center text-white">
-          <div className="max-w-md">
-            <p className="mb-5 text-xl font-semibold">
-              Online Learning From Everywhere
-            </p>
-            <h1 className=" mb-5 text-2xl lg:text-3xl font-bold">Are you ready to start learning?</h1>
-          </div>
-        </div>
+  const [courses] = useCourses();
+  console.log(courses);
+
+  return (
+    <div className="">
+      <CourseBanner></CourseBanner>
+
+      <div className=" bg-slate-500  py-8 px-2 md:px-0 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-0 gap-y-8 place-items-center">
+        {courses.map((item) => (
+          <CourseCard key={item._id} item={item}></CourseCard>
+        ))}
       </div>
-    );
+    </div>
+  );
 };
 
 export default Courses;
-

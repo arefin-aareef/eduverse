@@ -1,6 +1,24 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import './NavBar.css'
+
 
 const Navbar = () => {
+
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const onScroll = () => {
+          if(window.scrollY > 10) {
+            setScrolled(true)
+          } else 
+          setScrolled(false)
+        }
+        window.addEventListener("scroll", onScroll)
+        return () => window.removeEventListener("scroll", onScroll)
+      })
+
+
   const navOptions = (
     <div className="flex flex-col lg:flex-row font-semibold text-lg">
       <li className="hover:bg-white hover:text-black rounded-lg">
@@ -15,8 +33,8 @@ const Navbar = () => {
     </div>
   );
   return (
-    <div>
-      <div className="navbar fixed z-20 max-w-screen-2xl text-white">
+
+      <div className={`navbar bg-transparent fixed z-20 max-w-screen-2xl text-white ${scrolled ? "scrolled " : "transition-all duration-500 ease-in"}`}>
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -48,7 +66,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
       </div>
-    </div>
+
   );
 };
 

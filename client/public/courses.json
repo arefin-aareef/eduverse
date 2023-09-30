@@ -1,0 +1,243 @@
+[
+  {
+    "_id": "1",
+    "course_name": "MERN Stack Fundamentals",
+    "course_description": "Learn the core concepts of MERN stack development.",
+    "course_duration": "8 weeks",
+    "course_content": "Full-stack development with MongoDB, Express.js, React, and Node.js.",
+    "category": "Web Development",
+    "instructor_name": "John Doe",
+    "instructor_email": "john.doe@email.com",
+    "rating": 4.5,
+    "price": 49.99,
+    "syllabus": [
+      "Introduction to MERN",
+      "React Components",
+      "RESTful APIs",
+      "Database Integration"
+    ],
+    "review": ["Great course!", "Highly recommended."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010133.jpg?w=740&t=st=1696038004~exp=1696038604~hmac=4e310aadb8db6ab4dba5fa13198626fdf7ad32986c39f8febb31cd67da8ffe9a",
+    "video": "mern_course_intro.mp4"
+  },
+  {
+    "_id": "2",
+    "course_name": "Advanced React Techniques",
+    "course_description": "Master advanced React concepts and libraries.",
+    "course_duration": "10 weeks",
+    "course_content": "Redux, React Router, Hooks, and more.",
+    "category": "Web Development",
+    "instructor_name": "Jane Smith",
+    "instructor_email": "jane.smith@email.com",
+    "rating": 4.8,
+    "price": 59.99,
+    "syllabus": [
+      "Advanced State Management",
+      "Routing with React Router",
+      "Custom Hooks"
+    ],
+    "review": ["Incredible course!", "Changed my React game."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010135.jpg?w=740&t=st=1696038033~exp=1696038633~hmac=5ef3d30254ede26a440ee67003058e68bd067049b2c4f05330df7ad6d11a24a6",
+    "video": "react_advanced_course_intro.mp4"
+  },
+  {
+    "_id": "3",
+    "course_name": "Node.js Backend Development",
+    "course_description": "Become a Node.js backend expert.",
+    "course_duration": "12 weeks",
+    "course_content": "Building RESTful APIs, authentication, and security.",
+    "category": "Web Development",
+    "instructor_name": "Mark Johnson",
+    "instructor_email": "mark.johnson@email.com",
+    "rating": 4.7,
+    "price": 69.99,
+    "syllabus": [
+      "Node.js Fundamentals",
+      "Express.js",
+      "Authentication with JWT"
+    ],
+    "review": ["Best Node.js course out there!", "Very comprehensive."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010132.jpg?w=740&t=st=1696038052~exp=1696038652~hmac=2eb0ffacb8085e2443c411c722fc368b4078cf1c6df35a42edfec46c5b742c1d",
+    "video": "nodejs_course_intro.mp4"
+  },
+  {
+    "_id": "4",
+    "course_name": "MongoDB for Beginners",
+    "course_description": "Start your journey with MongoDB.",
+    "course_duration": "6 weeks",
+    "course_content": "Database modeling, CRUD operations, and more.",
+    "category": "Database",
+    "instructor_name": "Emily Brown",
+    "instructor_email": "emily.brown@email.com",
+    "rating": 4.2,
+    "price": 39.99,
+    "syllabus": ["Introduction to NoSQL", "MongoDB Queries", "Data Modeling"],
+    "review": ["Great beginner course!", "Well explained."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010138.jpg?w=740&t=st=1696038102~exp=1696038702~hmac=8bf916696a117ebb24893b9aa6707933c7610f8c837f8dec34611606ef5c8e0c",
+    "video": "mongodb_beginner_course_intro.mp4"
+  },
+  {
+    "_id": "5",
+    "course_name": "React Native App Development",
+    "course_description": "Build cross-platform mobile apps with React Native.",
+    "course_duration": "10 weeks",
+    "course_content": "Navigation, UI components, and native modules.",
+    "category": "Mobile App Development",
+    "instructor_name": "Alex Turner",
+    "instructor_email": "alex.turner@email.com",
+    "rating": 4.6,
+    "price": 54.99,
+    "syllabus": [
+      "Getting Started with React Native",
+      "Navigation with React Navigation",
+      "Native Modules"
+    ],
+    "review": ["Loved building apps with React Native!", "Highly practical."],
+    "image": "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010150.jpg?w=740",
+    "video": "react_native_course_intro.mp4"
+  },
+  {
+    "_id": "6",
+    "course_name": "Full-stack E-commerce Website",
+    "course_description": "Create a fully functional e-commerce site.",
+    "course_duration": "16 weeks",
+    "course_content": "Payment gateways, shopping carts, and more.",
+    "category": "Web Development",
+    "instructor_name": "Sophia Turner",
+    "instructor_email": "sophia.turner@email.com",
+    "rating": 4.9,
+    "price": 79.99,
+    "syllabus": [
+      "Setting Up an Online Store",
+      "Stripe Integration",
+      "Order Management"
+    ],
+    "review": [
+      "Impressive e-commerce course!",
+      "Great for real-world projects."
+    ],
+    "image": "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010151.jpg?w=740",
+    "video": "ecommerce_course_intro.mp4"
+  },
+  {
+    "_id": "7",
+    "course_name": "React and Express Authentication",
+    "course_description": "Secure your MERN stack apps with authentication.",
+    "course_duration": "8 weeks",
+    "course_content": "User registration, login, and JWT.",
+    "category": "Web Development",
+    "instructor_name": "David Miller",
+    "instructor_email": "david.miller@email.com",
+    "rating": 4.4,
+    "price": 49.99,
+    "syllabus": [
+      "User Registration and Login",
+      "JSON Web Tokens (JWT)",
+      "Authentication Middleware"
+    ],
+    "review": ["Essential for secure apps!", "Clear explanations."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010136.jpg?w=740&t=st=1696038171~exp=1696038771~hmac=c2fd8fe57fc43a8796ad3b5501ef899d83faaddb65eeeeff7656c2f92e2464dc",
+    "video": "auth_course_intro.mp4"
+  },
+  {
+    "_id": "8",
+    "course_name": "Database Design Principles",
+    "course_description": "Master the art of database design.",
+    "course_duration": "10 weeks",
+    "course_content": "Normalization, ER diagrams, and SQL.",
+    "category": "Database",
+    "instructor_name": "Olivia Lewis",
+    "instructor_email": "olivia.lewis@email.com",
+    "rating": 4.7,
+    "price": 59.99,
+    "syllabus": ["Database Normalization", "SQL Queries", "ER Diagrams"],
+    "review": ["Fantastic database course!", "Great for beginners."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010140.jpg?w=740&t=st=1696038197~exp=1696038797~hmac=d24cbd705c6490274d0d29c0fabb225f23b9faf731e9f3a6c1d54edc2158d37c",
+    "video": "database_course_intro.mp4"
+  },
+  {
+    "_id": "9",
+    "course_name": "React Testing Strategies",
+    "course_description": "Learn how to test React applications.",
+    "course_duration": "6 weeks",
+    "course_content": "Unit testing, integration testing, and best practices.",
+    "category": "Web Development",
+    "instructor_name": "Daniel Harris",
+    "instructor_email": "daniel.harris@email.com",
+    "rating": 4.5,
+    "price": 39.99,
+    "syllabus": [
+      "Introduction to Testing",
+      "React Testing Library",
+      "Jest Framework"
+    ],
+    "review": ["Great testing course!", "Made testing fun."],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010144.jpg?w=740&t=st=1696038225~exp=1696038825~hmac=2e79417a5175217e7f476461f6b32af6fb3e86a2c6f97efc28b50c09c1746f7d",
+    "video": "testing_course_intro.mp4"
+  },
+  {
+    "_id": "10",
+    "course_name": "Node.js Express Framework",
+    "course_description": "Explore the power of Node.js and Express.",
+    "course_duration": "8 weeks",
+    "course_content": "Building RESTful APIs with Express.js.",
+    "category": "Web Development",
+    "instructor_name": "Sophie Davis",
+    "instructor_email": "sophie.davis@email.com",
+    "rating": 4.6,
+    "price": 49.99,
+    "syllabus": ["Express.js Fundamentals", "Middleware", "Error Handling"],
+    "review": [
+      "In-depth Express course!",
+      "Highly recommended for Node.js devs."
+    ],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010128.jpg?w=740&t=st=1696038245~exp=1696038845~hmac=01262cf294ebc7abb3748d5f5ba9a90ebb225bc43814fbb963bd63b14e273645",
+    "video": "nodejs_express_course_intro.mp4"
+  },
+  {
+    "_id": "11",
+    "course_name": "React State Management",
+    "course_description": "Master state management in React.",
+    "course_duration": "6 weeks",
+    "course_content": "Context API, Redux, and Mobx.",
+    "category": "Web Development",
+    "instructor_name": "Matthew Turner",
+    "instructor_email": "matthew.turner@email.com",
+    "rating": 4.8,
+    "price": 44.99,
+    "syllabus": [
+      "Using Context API",
+      "Redux Fundamentals",
+      "Mobx for State Management"
+    ],
+    "review": [
+      "Top-notch state management course!",
+      "Helped me understand complex concepts."
+    ],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010127.jpg?w=740&t=st=1696038271~exp=1696038871~hmac=dcb6db1334af67cbe5d067024a91f567182ec1a359f9a18d4924c4ad096dc2e3",
+    "video": "state_management_course_intro.mp4"
+  },
+  {
+    "_id": "12",
+    "course_name": "MongoDB Performance Optimization",
+    "course_description": "Optimize MongoDB for high-performance applications.",
+    "course_duration": "8 weeks",
+    "course_content": "Indexing, sharding, and query optimization.",
+    "category": "Database",
+    "instructor_name": "Liam Anderson",
+    "instructor_email": "liam.anderson@email.com",
+    "rating": 4.6,
+    "price": 54.99,
+    "syllabus": [
+      "MongoDB Indexing",
+      "Sharding Strategies",
+      "Query Performance"
+    ],
+    "review": [
+      "Great performance optimization course!",
+      "Boosted my database skills."
+    ],
+    "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010119.jpg?w=740&t=st=1696038289~exp=1696038889~hmac=5a1f1c3ec558c9e7f6504a265d6c49752d6a186ecda2701322d1ede0290fdb3f",
+    "video": "mongodb_optimization_course_intro.mp4"
+  }
+]
