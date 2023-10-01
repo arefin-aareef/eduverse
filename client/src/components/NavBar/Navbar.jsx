@@ -26,12 +26,12 @@ const Navbar = () => {
   });
 
   const navOptions = (
-    <div className="flex flex-col lg:flex-row font-semibold text-lg">
+    <div className="flex flex-col lg:flex-row font-semibold text-lg navigation">
       <li className="">
-        <Link to="/courses">Courses</Link>
+        <Link to="/">Home</Link>
       </li>
       <li className="">
-        <Link>Item 3</Link>
+        <Link to="/courses">Courses</Link>
       </li>
 
       {user ? (
@@ -45,6 +45,7 @@ const Navbar = () => {
             src={user?.photoURL}
             alt={user?.displayName}
             title={user?.email}
+            className="mx-3"
           />
         </div>
       ) : (
@@ -80,7 +81,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-400 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-400 text-white rounded-box w-52"
           >
             {navOptions}
           </ul>
@@ -94,7 +95,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navOptions}</ul>
+        <ul className=" menu menu-horizontal px-1">{navOptions}</ul>
       </div>
     </div>
   );
