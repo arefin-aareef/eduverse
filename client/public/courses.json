@@ -17,7 +17,7 @@
     ],
     "review": ["Great course!", "Highly recommended."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010133.jpg?w=740&t=st=1696038004~exp=1696038604~hmac=4e310aadb8db6ab4dba5fa13198626fdf7ad32986c39f8febb31cd67da8ffe9a",
-    "video": "mern_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/7unPQjNducY?si=yZs4Ea-_CUXEt3du"
   },
   {
     "course_name": "Advanced React Techniques",
@@ -36,7 +36,7 @@
     ],
     "review": ["Incredible course!", "Changed my React game."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010135.jpg?w=740&t=st=1696038033~exp=1696038633~hmac=5ef3d30254ede26a440ee67003058e68bd067049b2c4f05330df7ad6d11a24a6",
-    "video": "react_advanced_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/ipOYH_Wi9Xw?si=IqesbD4kF1H7s1bB"
   },
   {
     "course_name": "Node.js Backend Development",
@@ -55,7 +55,7 @@
     ],
     "review": ["Best Node.js course out there!", "Very comprehensive."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010132.jpg?w=740&t=st=1696038052~exp=1696038652~hmac=2eb0ffacb8085e2443c411c722fc368b4078cf1c6df35a42edfec46c5b742c1d",
-    "video": "nodejs_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/Oe421EPjeBE?si=h9CMGdiWEz7ZD0LP"
   },
   {
     "course_name": "MongoDB for Beginners",
@@ -70,7 +70,7 @@
     "syllabus": ["Introduction to NoSQL", "MongoDB Queries", "Data Modeling"],
     "review": ["Great beginner course!", "Well explained."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010138.jpg?w=740&t=st=1696038102~exp=1696038702~hmac=8bf916696a117ebb24893b9aa6707933c7610f8c837f8dec34611606ef5c8e0c",
-    "video": "mongodb_beginner_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/SnqPyqRh4r4?si=VgK4mHn3kDQn4qUc"
   },
   {
     "course_name": "React Native App Development",
@@ -89,7 +89,7 @@
     ],
     "review": ["Loved building apps with React Native!", "Highly practical."],
     "image": "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010150.jpg?w=740",
-    "video": "react_native_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/gvkqT_Uoahw?si=8wdP6YqacaY6BboK"
   },
   {
     "course_name": "Full-stack E-commerce Website",
@@ -111,7 +111,7 @@
       "Great for real-world projects."
     ],
     "image": "https://img.freepik.com/premium-photo/programming-background-with-person-working-with-codes-computer_23-2150010151.jpg?w=740",
-    "video": "ecommerce_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/blZ9zKqQ_tU?si=J9Px2j65V1U2hg1P"
   },
   {
     "course_name": "React and Express Authentication",
@@ -130,7 +130,7 @@
     ],
     "review": ["Essential for secure apps!", "Clear explanations."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010136.jpg?w=740&t=st=1696038171~exp=1696038771~hmac=c2fd8fe57fc43a8796ad3b5501ef899d83faaddb65eeeeff7656c2f92e2464dc",
-    "video": "auth_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/wr3VmbZdVA4?si=V1sqoX3GtrMGI50W"
   },
   {
     "course_name": "Database Design Principles",
@@ -145,7 +145,7 @@
     "syllabus": ["Database Normalization", "SQL Queries", "ER Diagrams"],
     "review": ["Fantastic database course!", "Great for beginners."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010140.jpg?w=740&t=st=1696038197~exp=1696038797~hmac=d24cbd705c6490274d0d29c0fabb225f23b9faf731e9f3a6c1d54edc2158d37c",
-    "video": "database_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/ztHopE5Wnpc?si=cH7KgFX6KrbAU0YF"
   },
   {
     "course_name": "React Testing Strategies",
@@ -164,7 +164,7 @@
     ],
     "review": ["Great testing course!", "Made testing fun."],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010144.jpg?w=740&t=st=1696038225~exp=1696038825~hmac=2e79417a5175217e7f476461f6b32af6fb3e86a2c6f97efc28b50c09c1746f7d",
-    "video": "testing_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/is83bEK3n5A?si=zXlS9gR1NfOvBk_T"
   },
   {
     "course_name": "Node.js Express Framework",
@@ -182,7 +182,7 @@
       "Highly recommended for Node.js devs."
     ],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010128.jpg?w=740&t=st=1696038245~exp=1696038845~hmac=01262cf294ebc7abb3748d5f5ba9a90ebb225bc43814fbb963bd63b14e273645",
-    "video": "nodejs_express_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/Oe421EPjeBE?si=mr3jrTKqw26VBg1X"
   },
   {
     "course_name": "React State Management",
@@ -204,7 +204,7 @@
       "Helped me understand complex concepts."
     ],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010127.jpg?w=740&t=st=1696038271~exp=1696038871~hmac=dcb6db1334af67cbe5d067024a91f567182ec1a359f9a18d4924c4ad096dc2e3",
-    "video": "state_management_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/-bEzt5ISACA?si=AtmHlwgdbzPIwfSx"
   },
   {
     "course_name": "MongoDB Performance Optimization",
@@ -226,6 +226,6 @@
       "Boosted my database skills."
     ],
     "image": "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010119.jpg?w=740&t=st=1696038289~exp=1696038889~hmac=5a1f1c3ec558c9e7f6504a265d6c49752d6a186ecda2701322d1ede0290fdb3f",
-    "video": "mongodb_optimization_course_intro.mp4"
+    "video": "https://www.youtube.com/embed/2ZRbJnaIqAI?si=btE_kQPJVVwLIK0f"
   }
 ]
