@@ -71,7 +71,7 @@ const CourseDetails = () => {
 
             <div className="mb-2 text-lg font-semibold text-neutral-content flex flex-col sm:flex-row ">
               <p className="font-extrabold text-white me-2">Syllabus:</p> 
-              <div className=" w-[340px]">
+              <div className=" w-[340px] sm:w-[400px]">
                     <Swiper
                         navigation={true}
                         modules={[Navigation]}
@@ -99,7 +99,7 @@ const CourseDetails = () => {
           </div>
         </div>
 
-        <div className="my-2 text-lg font-semibold text-neutral-content  w-[340px]">
+        <div className="my-2 text-lg font-semibold text-neutral-content  w-[340px] sm:w-[500px]">
               <p className="mb-2 font-bold text-white text-3xl text-center">Reviews</p>
 
               <Swiper
