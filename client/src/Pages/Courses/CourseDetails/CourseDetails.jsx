@@ -48,29 +48,29 @@ const CourseDetails = () => {
 
           <div className="my-auto">
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Content:</span> {course_content}
+              <span className="font-bold text-white">Content:</span> {course_content}
             </p>
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Duration:</span> {course_duration}
+              <span className="font-bold text-white">Duration:</span> {course_duration}
             </p>
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Category:</span> {category}
+              <span className="font-bold text-white">Category:</span> {category}
             </p>
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Instructor:</span> {instructor_name}
+              <span className="font-bold text-white">Instructor:</span> {instructor_name}
             </p>
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Email:</span> {instructor_email}
+              <span className="font-bold text-white">Email:</span> {instructor_email}
             </p>
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Price:</span> ${price}
+              <span className="font-bold text-white">Price:</span> ${price}
             </p>
             <p className="mb-2 text-lg font-semibold text-neutral-content">
-              <span className="font-extrabold text-white">Ratings:</span> {rating}
+              <span className="font-bold text-white">Ratings:</span> {rating}
             </p>
 
             <div className="mb-2 text-lg font-semibold text-neutral-content flex flex-col sm:flex-row ">
-              <p className="font-extrabold text-white me-2">Syllabus:</p> 
+              <p className="font-bold text-white me-2">Syllabus:</p> 
               <div className=" w-[340px] sm:w-[400px]">
                     <Swiper
                         navigation={true}

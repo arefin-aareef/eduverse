@@ -8,11 +8,9 @@ const CourseBanner = () => {
       >
         <div className="hero-overlay bg-opacity-60 "></div>
         <div className="hero-content text-center text-white">
-          <div className="max-w-md">
-            <p className="mb-5 pt-12 text-xl font-semibold">
-              Online Learning From Everywhere
-            </p>
-            <h1 className=" mb-5 text-2xl lg:text-3xl font-bold">Are you ready to start learning?</h1>
+          <div>
+            <p className="mb-5 pt-12 text-xl font-semibold">Online Learning From Everywhere</p>
+            <p className=" mb-5 text-2xl lg:text-4xl font-bold">Are you ready to start learning?</p>
           </div>
         </div>
       </div>
