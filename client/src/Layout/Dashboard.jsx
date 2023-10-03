@@ -1,4 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
+import { BiHomeAlt2, BiSolidHome } from 'react-icons/bi';
+import { AiOutlineHeart } from 'react-icons/ai';
+import { SiGotomeeting } from 'react-icons/si';
 
 const Dashboard = () => {
   return (
@@ -20,10 +23,12 @@ const Dashboard = () => {
           className="drawer-overlay"
         ></label>
         <ul className="menu p-4 w-80 min-h-full bg-slate-300 text-base-content">
-          <li><Link to="/dashboard/myfavorite">My Favorite</Link></li>
-          <li>
-            <a>Sidebar Item 2</a>
-          </li>
+          <li><Link to="/dashboard/userhome"><BiHomeAlt2 /> User Home</Link></li>
+          <li><Link to="/dashboard/myfavorite"><AiOutlineHeart />My Favorites</Link></li>
+          <div className="divider"></div>
+          <li><Link to="/"><BiSolidHome />Home</Link></li>
+          <li><Link to="/courses"><SiGotomeeting />Courses</Link></li>
+
         </ul>
       </div>
     </div>

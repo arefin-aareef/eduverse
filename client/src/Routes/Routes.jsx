@@ -4,6 +4,7 @@ import Main from "../Layout/Main";
 import CourseDetails from "../Pages/Courses/CourseDetails/CourseDetails";
 import Courses from "../Pages/Courses/Courses/Courses";
 import MyFavorite from "../Pages/Dashboard/MyFavorite/MyFavorite";
+import UserHome from "../Pages/Dashboard/UserHome/UserHome";
 import Home from "../Pages/Home/Home/Home";
 import Login from "../Pages/Login/Login";
 import Signup from "../Pages/Signup/Signup";
@@ -43,6 +44,10 @@ import Signup from "../Pages/Signup/Signup";
         {
             path: 'myfavorite',
             element: <MyFavorite></MyFavorite>
+        },
+        {
+            path: 'userhome',
+            element: <UserHome></UserHome>
         }
     ]
 
