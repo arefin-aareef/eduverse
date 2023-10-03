@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const { user, logOut } = useContext(AuthContext);
 
+
   const handleLogOut = () => {
     logOut()
       .then(() => {})
@@ -32,6 +33,9 @@ const Navbar = () => {
       </li>
       <li className="">
         <Link to="/courses">Courses</Link>
+      </li>
+      <li className="">
+        <Link to="/dashboard">Dashboard</Link>
       </li>
 
       {user ? (

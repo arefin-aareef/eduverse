@@ -26,6 +26,7 @@ async function run() {
     // await client.connect();
     // Send a ping to confirm a successful connection
     const courseCollection = client.db('eduverseDB').collection('course')
+    const favoriteCollection = client.db('eduverseDB').collection('favorite')
 
     app.get('/courses', async(req, res) => {
         const result = await courseCollection.find().toArray()
@@ -37,6 +38,29 @@ async function run() {
         const result = await courseCollection.findOne(query);
         res.send(result)
     })
+
+    app.get('/favorites', async(req, res) => {
+      const email = req.query.email
+      if(!email){
+        res.send([])
+      } 
+      const query = { email: email}
+      const result = await favoriteCollection.find(query).toArray()
+      res.send(result)
+    })
+    app.post('/favorites', async (req, res) => {
+      const item = req.body;
+      const { courseId, email } = item;
+      const existingItem = await favoriteCollection.findOne({ courseId, email });
+      if (existingItem) {
+        res.status(400).send({ message: 'Item already exists in favorites.' });
+      } else {
+        const result = await favoriteCollection.insertOne(item);
+        res.status(201).send(result);
+      }
+    });
+    
+
     
 
     await client.db("admin").command({ ping: 1 });
