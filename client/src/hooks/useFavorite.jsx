@@ -8,10 +8,16 @@ const useFavorite = () => {
 
     const { refetch, data: favorite = [] } = useQuery({
         queryKey: ['favorites', user?.email],
+        // queryFn: async () => {
+        //     const response = await fetch(`http://localhost:5000/favorites?email=${user.email}`)
+        //     return response.json()
+        // },
         queryFn: async () => {
-            const response = await fetch(`http://localhost:5000/favorites?email=${user.email}`)
-            return response.json()
-
+            if (user?.email) {
+                const response = await fetch(`http://localhost:5000/favorites?email=${user.email}`);
+                return response.json();
+            }
+            return [];
         },
       })
       return [favorite, refetch]

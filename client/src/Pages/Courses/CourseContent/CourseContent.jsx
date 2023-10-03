@@ -3,12 +3,8 @@ import CourseCard from "../CourseCard/CourseCard";
 
 const CourseContent = ({ limit, shouldShuffle }) => {
   const [courses] = useCourses();
-  console.log(courses);
 
-  const shuffledCourses = shouldShuffle
-  ? courses.sort(() => Math.random() - 0.5)
-  : courses;
-
+  const shuffledCourses = shouldShuffle ? courses.sort(() => Math.random() - 0.5) : courses;
 
   const limitedCourses = limit ? shuffledCourses.slice(0, limit) : courses;
 

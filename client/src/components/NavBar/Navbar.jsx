@@ -9,7 +9,6 @@ const Navbar = () => {
 
   const { user, logOut } = useContext(AuthContext);
 
-
   const handleLogOut = () => {
     logOut()
       .then(() => {})
@@ -34,11 +33,13 @@ const Navbar = () => {
       <li className="">
         <Link to="/courses">Courses</Link>
       </li>
-{
-  user?       <li className="">
-  <Link to="/dashboard/userhome">Dashboard</Link>
-</li> : ''
-}
+      {user ? (
+        <li className="">
+          <Link to="/dashboard/userhome">Dashboard</Link>
+        </li>
+      ) : (
+        ""
+      )}
 
       {user ? (
         <div className="flex flex-col lg:flex-row">
