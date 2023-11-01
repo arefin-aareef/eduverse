@@ -64,7 +64,7 @@ const Navbar = () => {
   );
   return (
     <div
-      className={`navbar bg-transparent fixed z-20 max-w-screen-2xl text-white ${
+      className={`navbar bg-transparent fixed z-20 max-w-screen-3xl text-white ${
         scrolled ? "scrolled " : "transition-all duration-500 ease-in"
       }`}
     >

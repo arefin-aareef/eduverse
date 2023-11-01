@@ -4,12 +4,11 @@ import CourseContent from "../CourseContent/CourseContent";
 const Courses = () => {
 
 
+
   return (
     <div>
       <CourseBanner></CourseBanner>
       <CourseContent></CourseContent>
-
-
     </div>
   );
 };

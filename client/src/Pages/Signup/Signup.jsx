@@ -35,7 +35,7 @@ const Signup = () => {
   };
 
   return (
-    <div className="pt-12 bg-slate-600 min-h-screen">
+    <div className="flex justify-center items-center bg-slate-600 min-h-screen">
       <div className="hero pt-12 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="text-center lg:text-right  text-white w-full flex flex-col justify-center">
@@ -143,7 +143,7 @@ const Signup = () => {
             </form>
           </div>
 
-          <p className=" lg:hidden">
+          <p className=" lg:hidden text-white pb-4 text-center">
             Already have an account?{" "}
             <span className="underline">
               <Link to="/login">Login</Link>
